@@ -21,7 +21,7 @@ TargetOutputMedium=Assy Files
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Brother HL-2280DW Printer
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -70,7 +70,7 @@ Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|Ge
 OutputType3=Test Points
 OutputName3=Test Point Report
 OutputCategory3=Fabrication
-OutputDocumentPath3=sigjumper.PcbDoc
+OutputDocumentPath3=
 OutputVariantName3=
 OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
@@ -187,19 +187,47 @@ Configuration6_Item16=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Ful
 Configuration6_Name17=OutputConfigurationParameter17
 Configuration6_Item17=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical29|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
 PcbPrintPreferences6=
+OutputType7=BOM_PartType
+OutputName7=Bill of Materials
+OutputCategory7=Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputEnabled7=1
+OutputEnabled7_OutputMedium1=0
+OutputEnabled7_OutputMedium2=0
+OutputEnabled7_OutputMedium3=0
+OutputEnabled7_OutputMedium4=0
+OutputEnabled7_OutputMedium5=0
+OutputEnabled7_OutputMedium6=2
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration7_Name1=ColumnNameFormat
+Configuration7_Item1=CaptionAsName
+Configuration7_Name2=Filter
+Configuration7_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration7_Name3=General
+Configuration7_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1035|FormHeight=649|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration7_Name4=GroupOrder
+Configuration7_Item4=Manufacturer=True|Manufacturer P/N=True
+Configuration7_Name5=OutputConfigurationParameter1
+Configuration7_Item5=ateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842754~1,16777219~1,16842761~1,16777220~1,16842755~1,16777218~1,16777221~1,16842758~1,16777222~1,16842762~1,16777223~1,16842759~1,16842751~1,16973835~1,16973833~1,16973831~1,16908290~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration7_Name6=SortOrder
+Configuration7_Item6=Designator=Up|Comment=Up|Footprint=Up
+Configuration7_Name7=VisibleOrder
+Configuration7_Item7=Designator=100|Comment=100|Description=100|Manufacturer=100|Manufacturer P/N=100|Footprint=100|Quantity=100
 
 [PublishSettings]
-OutputFilePath2=Project Outputs for Free Documents\.PDF
-ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Free Documents
+OutputFilePath2=C:\Users\joel2\projects\sigjumper-top\outputs\graviton-jumper.PDF
+ReleaseManaged2=0
+OutputBasePath2=outputs\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=graviton-jumper.PDF
+OutputFileName2=sigjumper-top(fab).pdf
 OutputFileNameMulti2=
-UseOutputNameForMulti2=1
+UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
 OpenOutput2=1
 PromptOverwrite2=1
@@ -214,9 +242,11 @@ MarkPortsId2=1
 GenerateTOC2=1
 ShowComponentParameters2=1
 GlobalBookmarks2=0
-OutputFilePath3=C:\Projects\graviton-jumper\Project Outputs for Free Documents\
+PDFACompliance2=Disabled
+PDFVersion2=Default
+OutputFilePath3=C:\Users\joel2\projects\sigjumper-top\outputs\
 ReleaseManaged3=0
-OutputBasePath3=Project Outputs for Free Documents
+OutputBasePath3=outputs\
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -226,10 +256,10 @@ OutputFileName3=
 OutputFileNameMulti3=
 UseOutputNameForMulti3=1
 OutputFileNameSpecial3=
-OpenOutput3=1
+OpenOutput3=0
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=
+OutputBasePath4=Project Outputs for sigmcu
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -289,9 +319,11 @@ MarkPortsId5=1
 GenerateTOC5=1
 ShowComponentParameters5=1
 GlobalBookmarks5=0
-OutputFilePath6=C:\Projects\graviton-jumper\output\
+PDFACompliance5=Disabled
+PDFVersion5=Default
+OutputFilePath6=C:\Users\joel2\projects\sigjumper-top\outputs\
 ReleaseManaged6=0
-OutputBasePath6=output\
+OutputBasePath6=outputs\
 OutputPathMedia6=
 OutputPathMediaValue6=
 OutputPathOutputer6=[Output Type]
@@ -301,14 +333,14 @@ OutputFileName6=
 OutputFileNameMulti6=
 UseOutputNameForMulti6=1
 OutputFileNameSpecial6=
-OpenOutput6=1
+OpenOutput6=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=Project Outputs for Free Documents\.PDF
+RelativeOutputPath2=C:\Users\joel2\projects\sigjumper-top\outputs\graviton-jumper.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\Projects\graviton-jumper\Project Outputs for Free Documents\
-OpenOutputs3=1
-AddToProject3=1
+RelativeOutputPath3=C:\Users\joel2\projects\sigjumper-top\outputs\
+OpenOutputs3=0
+AddToProject3=0
 TimestampFolder3=0
 UseOutputName3=0
 OpenODBOutput3=0
@@ -320,9 +352,9 @@ RelativeOutputPath4=
 OpenOutputs4=1
 RelativeOutputPath5=C:\Projects\graviton-jumper\Project Outputs for sigmcu\.PDF
 OpenOutputs5=1
-RelativeOutputPath6=C:\Projects\graviton-jumper\output\
-OpenOutputs6=1
-AddToProject6=1
+RelativeOutputPath6=C:\Users\joel2\projects\sigjumper-top\outputs\
+OpenOutputs6=0
+AddToProject6=0
 TimestampFolder6=0
 UseOutputName6=0
 OpenODBOutput6=0
